@@ -1,0 +1,22 @@
+# ==========================================
+#   PlatformIO Project Git Ignore Template
+# ==========================================
+
+# --- PlatformIO build folder ---
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+
+# --- Binaries / Firmware outputs ---
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.pio
+*.bin.*
+*.gz
+
+# --- Secrets / Private Config ---
+./lib/common/config.h
